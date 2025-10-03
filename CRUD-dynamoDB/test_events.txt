@@ -1,0 +1,31 @@
+{
+  "action": "create",
+  "student_id": "101",
+  "name": "Alice",
+  "age": 25,
+  "department": "Engineering"
+}
+
+{
+  "action": "delete",
+  "student_id": "101"
+}
+
+{
+  "action": "read",
+  "student_id": "101"
+}
+
+{
+  "action": "update",
+  "student_id": "101",
+  "name": "Alice Smith",
+  "age": 26
+}
+
+update by adding new field
+{
+  "action": "update",
+  "student_id": "101",
+  "role": "Team Lead"
+}
